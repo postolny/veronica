@@ -5,13 +5,15 @@
 
 body {
   background: #ffe4b5;
-  width: 100%;
+}
+
+.container {
   display: flex;
   height: 100vh;
   justify-content: center;
 }
 
-#wrapper {
+.container > div {
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -68,7 +70,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  #wrapper {
+  .container > div {
     flex-direction: column;
     align-self: flex-start;
   }
