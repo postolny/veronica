@@ -63,8 +63,13 @@ body {
   font-style: italic;
 }
 
-#text1,
-#text2 {
+p {
+  line-height: 1.5;
+}
+
+input {
+  margin-left: -4px;
+  padding: 2px 4px;
   font-size: 1em;
   border: none;
   border-radius: 5px;
@@ -94,8 +99,7 @@ body {
     font-size: 22px;
   }
 
-  #text1,
-  #text2 {
+  input {
     font-size: 1em;
   }
 }
